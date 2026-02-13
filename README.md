@@ -49,7 +49,7 @@ NuxtとLaravelを連携させ、認証やCRUD処理の流れを理解するこ�
 ![ER Diagram](/er-diagram.png)
 
 ## Dockerビルド
-1. git clone git@github.com:reina017719/
+1. git clone git@github.com:reina017719/SNS-application.git
 2. docker compose up -d --build
 
 *MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせて docker-compose.yml ファイルを編集してください。
