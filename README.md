@@ -47,7 +47,7 @@ NuxtとLaravelを連携させ、認証やCRUD処理の流れを理解するこ�
 - nginx 1.21.1
 
 ## ER図
-![ER Diagram](images/er-diagram.png)
+![ER Diagram](images/er-diagram.svg)
 
 ## Dockerビルド
 1. git clone git@github.com:reina017719/SNS-application.git
