@@ -17,7 +17,7 @@ services:
             - ./src:/var/www/
 
     mysql:
-        image: mysql:8.0
+        image: mysql:5.7
         platform: linux/amd64
         environment:
             MYSQL_ROOT_PASSWORD: root
@@ -35,9 +35,9 @@ services:
         platform: linux/amd64
         environment:
             - PMA_ARBITRARY=1
-            - PMA_HOST=mysql
-            - PMA_USER=user
-            - PMA_PASSWORD=pass
+            - PMA_HOST=
+            - PMA_USER=
+            - PMA_PASSWORD=
         depends_on:
             - mysql
         ports:
