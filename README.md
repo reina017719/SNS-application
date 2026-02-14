@@ -64,7 +64,7 @@ NuxtとLaravelを連携させ、認証やCRUD処理の流れを理解するこ�
 4. php artisan key:generate
 5. php artisan migrate
 
-###　フロントエンド
+### フロントエンド
 1. npm install
 2. npm run dev
 
