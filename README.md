@@ -7,7 +7,7 @@ Nuxt3（フロントエンド）とLaravel12（バックエンド）を使用し
 認証機能にはトークン認証（JWT）を使用しています。
 フロントエンドとバックエンドをAPIで分離したSPA構成となっています。
 
-![ホーム画面](/home_image.png)
+![ホーム画面](images/home-image.png)
 
 ## 作成した目的
 フロントエンドとバックエンドを分離したSPA開発を学ぶために作成しました。
@@ -47,7 +47,7 @@ NuxtとLaravelを連携させ、認証やCRUD処理の流れを理解するこ�
 - nginx 1.21.1
 
 ## ER図
-![ER Diagram](/er-diagram.png)
+![ER Diagram](images/er-diagram.png)
 
 ## Dockerビルド
 1. git clone git@github.com:reina017719/SNS-application.git
