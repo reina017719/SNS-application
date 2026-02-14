@@ -63,10 +63,16 @@ NuxtとLaravelを連携させ、認証やCRUD処理の流れを理解するこ�
 3. cp .env.example .env
 4. php artisan key:generate
 5. php artisan migrate
+6. php artisan db:seed
 
 ### フロントエンド
 1. npm install
 2. npm run dev
+
+## ログイン情報 (テスト用)
+
+- メールアドレス: `test@example.com`
+- パスワード: `password123`
 
 ## URL
 - Nuxt.js: `http://localhost/`
